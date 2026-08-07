@@ -65,7 +65,7 @@ http://127.0.0.1:5000
 
 Lista todos os usuários cadastrados.
 
-### GET /usuarios/<id>
+### GET /usuarios/{id}
 
 Busca um usuário pelo ID.
 
@@ -88,7 +88,7 @@ Cadastra um novo usuário.
 }
 ```
 
-### PUT /usuarios/<id>
+### PUT /usuarios/ {id}
 
 Atualiza um usuário existente.
 
@@ -105,7 +105,7 @@ PUT /usuarios/1
 }
 ```
 
-### DELETE /usuarios/<id>
+### DELETE /usuarios/{id}
 
 Remove um usuário pelo ID.
 

@@ -72,35 +72,44 @@ Busca um usuário pelo ID.
 
 ```text
 GET /usuarios/1
+```
 
 ### POST /usuarios
 
 Cadastra um novo usuário.
 
-Exemplo:
+**Exemplo:**
 
+```json
 {
   "nome": "Arthur",
   "email": "arthur@email.com"
 }
+```
 
 ### PUT /usuarios/<id>
 
 Atualiza um usuário existente.
 
-Exemplo:
+**Exemplo:**
 
+```text
 PUT /usuarios/1
+```
 
+```json
 {
   "nome": "Novo Nome",
   "email": "novo@email.com"
 }
+```
 
 ### DELETE /usuarios/<id>
 
 Remove um usuário pelo ID.
 
-Exemplo:
+**Exemplo:**
 
+```text
 DELETE /usuarios/1
+```

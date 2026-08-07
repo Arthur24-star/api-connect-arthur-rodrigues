@@ -68,8 +68,9 @@ Lista todos os usuários cadastrados.
 
 Busca um usuário pelo ID.
 
-Exemplo:
+**Exemplo:**
 
+```text
 GET /usuarios/1
 
 ### POST /usuarios

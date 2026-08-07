@@ -60,7 +60,8 @@ http://127.0.0.1:5000
 
 ## Endpoints
 
-### GET /usuarios
+### GET /usuarios <id>
+
 
 Lista todos os usuários cadastrados.
 
@@ -74,7 +75,7 @@ Busca um usuário pelo ID.
 GET /usuarios/1
 ```
 
-### POST /usuarios
+### POST /usuarios <id>
 
 Cadastra um novo usuário.
 

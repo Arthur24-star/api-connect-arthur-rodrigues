@@ -60,7 +60,7 @@ http://127.0.0.1:5000
 
 ## Endpoints
 
-### GET /usuarios <id>
+### GET /usuarios 
 
 
 Lista todos os usuários cadastrados.

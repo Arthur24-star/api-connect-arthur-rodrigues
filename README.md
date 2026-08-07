@@ -61,38 +61,45 @@ http://127.0.0.1:5000
 ## Endpoints
 
 ### GET /usuarios
+
 Lista todos os usuários cadastrados.
 
 ### GET /usuarios/<id>
+
 Busca um usuário pelo ID.
 
+Exemplo:
+
+GET /usuarios/1
+
 ### POST /usuarios
+
 Cadastra um novo usuário.
 
 Exemplo:
 
-```json
 {
   "nome": "Arthur",
   "email": "arthur@email.com"
 }
-```
 
 ### PUT /usuarios/<id>
+
 Atualiza um usuário existente.
 
 Exemplo:
 
-```json
+PUT /usuarios/1
+
 {
   "nome": "Novo Nome",
   "email": "novo@email.com"
 }
-```
 
 ### DELETE /usuarios/<id>
+
 Remove um usuário pelo ID.
 
-## Autor
+Exemplo:
 
-Arthur Fernando Rodrigues Fonseca
+DELETE /usuarios/1

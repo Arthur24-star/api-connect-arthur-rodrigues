@@ -75,7 +75,7 @@ Busca um usuário pelo ID.
 GET /usuarios/1
 ```
 
-### POST /usuarios <id>
+### POST /usuarios 
 
 Cadastra um novo usuário.
 
